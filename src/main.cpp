@@ -11,6 +11,6 @@ int main() {
 
 	std::cout << "ÂÛÂÎÄ ÏĞÎÃĞÀÌÌÛ ÈÇÌÅÍ¨Í" << std::endl;
 
-	std::cout << "MULTIPLICATION" << " " << multiplication(a, b) << std::endl;
+	//ïğèâåò
 
 }
