@@ -1,0 +1,10 @@
+^C:\USERS\LEO\SOURCE\REPOS\LAB-1\BUILD\CMAKEFILES\EA1699BA9B4353D00004FE34491EA515\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LEO/source/repos/lab-1 -BC:/Users/LEO/source/repos/lab-1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/LEO/source/repos/lab-1/build/lab-1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
