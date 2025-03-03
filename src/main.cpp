@@ -8,4 +8,5 @@ int main() {
 	std::cout << "SUBSTRACTION" << " " << substraction(a, b) << std::endl;
 	std::cout << "DIVISION" << " " << division(a, b) << std::endl;
 	std::cout << "EXPONENTATION" << " " << exponentiation(a, b) << std::endl;
+	std::cout << "ÂÛÂÎÄ ÏĞÎÃĞÀÌÌÛ ÈÇÌÅÍ¨Í" << std::endl;
 }
