@@ -23,11 +23,10 @@ inline int exponentiation(int x, int y) {
 		}
 		return a;
 	}
-
+}
 inline int multiplication(int x, int y) {
 		return x * y;
-	}
-
-
-
 }
+
+
+
